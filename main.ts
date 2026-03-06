@@ -1,22 +1,2 @@
-namespace neptune {
-    const bootCart = neptune.createCart("bootCart", bootload);
-    const secondBoot = neptune.createCart("secondBoot", boottwo)
-
-    const testPlugin = new Plugin("test", testPluginFunction);
-
-    function testPluginFunction() {
-        scene.setBackgroundColor(14);
-    }
-
-    function bootload() {
-        console.log("gono")
-    }
-
-    function boottwo() {
-        console.log("gniotn")
-    }
-
-    neptune.loadCart(secondBoot);
-    neptune.bootstrap(testPlugin);
-}
-
+console.log("Thank you for using Neptune!");
+console.log("If you enjoyed using this software, consider supporting me on GitHub!")
